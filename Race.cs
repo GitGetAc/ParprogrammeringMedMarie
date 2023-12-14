@@ -67,11 +67,11 @@ namespace Parprogrammering
 
             if (TotalKjørt2 >= RacerBil2.TotalAvstand)
             {
-                Console.WriteLine($"Car 1 won in {seconds} seconds on 10000 meters\n");
+                Console.WriteLine($"Car 1 won in {seconds} seconds on {RacerBil2.TotalAvstand} meters\n");
             }
             else
             {
-                Console.WriteLine($"Car 2 won in {seconds} seconds on 10000 meters\n");
+                Console.WriteLine($"Car 2 won in {seconds} seconds on {RacerBil3.TotalAvstand} meters\n");
             }
 
             Console.ReadKey();
